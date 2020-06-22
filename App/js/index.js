@@ -32,6 +32,18 @@ xui.Class('App', 'xui.Module',{
                 .setType("date")
             );
             
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput15")
+                .setDirtyMark(false)
+                .setLeft("34.285714285714285em")
+                .setTop("12.19047619047619em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("Time Picker")
+                .setType("time")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
